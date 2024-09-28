@@ -1,0 +1,60 @@
+body{
+    background: whitesmoke;
+}
+section{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100vh;
+
+}
+.txt h2{
+    color: rgb(198, 135, 59);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+article{
+    background: white;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0,.5);
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    border-top: 1px solid rgba(0,0,0,.2);
+    color: rgb(77, 73, 73);
+}
+button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+   color: rgb(198, 135, 59)
+}
+.question p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+
+}
+.text{
+    display: none;
+}
+.question-btn .minus-icon{
+    display: none;
+}
+.show .text{
+    display: block;
+}
+.show .minus-icon{
+    display: block;
+}
+.show .plus-icon{
+    display: none;
+}
